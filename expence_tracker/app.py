@@ -905,10 +905,3 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# mobile-friendly features
-st.set_page_config(
-    page_title="SmartSpend - Your Personal Expense Tracker",
-    page_icon="💰",
-    layout="centered",  # Better for mobile
-    initial_sidebar_state="collapsed",  # Hide sidebar on mobile
-)
